@@ -6,7 +6,7 @@
     "editor.rulers": [80, 120],
     "editor.renderLineHighlight": "gutter",
     "editor.fontLigatures": true,
-    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.enabled": false, // Você definiu como false
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.minimap.enabled": false,
@@ -104,16 +104,16 @@
     "redhat.telemetry.enabled": false, // Red Hat extensions often have telemetry
 
     // --- APC (Advanced Power Customize) Settings ---
-    "apc.font.family": "Iosevka Nerd Font",
-    "apc.stylesheet": {
-        ".title-label > h2": "display: none;", // Hides the title label
+    "custom-ui-style.font.sansSerif": "Iosevka Nerd Font",
+    "custom-ui-style.stylesheet": {
+        ".title-label > h2": "display: none;",
         ".pane-body": "padding: 8px",
         ".pane-header": "padding: 0 8px"
     },
-    "apc.header": {
+    "custom-ui-style.header": {
         "height": 36
     },
-    "apc.electron": {
+    "custom-ui-style.electron": {
         "opacity": 0.95,
         "transparent": true,
         "backgroundColor": "#00000000",
